@@ -12,17 +12,17 @@ Package: blankon-wallpapers
 Architecture: all
 Section: metapackages
 Depends: ${misc:Depends},
-         blankon-wallpapers-uluwatu
-Conflicts: blankon-wallpapers-rote, blankon-wallpapers-suroboyo, blankon-wallpapers-tambora
-Replaces: blankon-wallpapers-rote, blankon-wallpapers-suroboyo, blankon-wallpapers-tambora
+         blankon-wallpapers-verbeek
+Conflicts: blankon-wallpapers-rote, blankon-wallpapers-suroboyo, blankon-wallpapers-tambora, blankon-wallpapers-uluwatu
+Replaces: blankon-wallpapers-rote, blankon-wallpapers-suroboyo, blankon-wallpapers-tambora, blankon-wallpapers-uluwatu
 Description: BlankOn Wallpapers
  The default BlankOn wallpaper. This is also a meta-package depending on the 
  other default wallpapers for the current BlankOn release.
 
-Package: blankon-wallpapers-uluwatu
+Package: blankon-wallpapers-verbeek
 Architecture: all
 Depends: ${misc:Depends}
-Conflicts: blankon-wallpapers-rote, blankon-wallpapers-suroboyo, blankon-wallpapers-tambora
-Replaces: blankon-wallpapers-rote, blankon-wallpapers-suroboyo, blankon-wallpapers-tambora
-Description: BlankOn XI Wallpapers
- The default BlankOn wallpapers for the current BlankOn XI release.
+Conflicts: blankon-wallpapers-rote, blankon-wallpapers-suroboyo, blankon-wallpapers-tambora, blankon-wallpapers-uluwatu
+Replaces: blankon-wallpapers-rote, blankon-wallpapers-suroboyo, blankon-wallpapers-tambora, blankon-wallpapers-uluwatu
+Description: BlankOn Verbeek Wallpapers
+ The default BlankOn wallpapers for the current BlankOn 12 release.
